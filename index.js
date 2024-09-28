@@ -7,8 +7,8 @@ const app = express()
 app.use(express.json())
 app.use(express.static("dist"))
 app.use(cors({
-    // origin: "https://nativ-practice.onrender.com",
-    origin: "*",
+    origin: "https://nativ-practice.onrender.com",
+    // origin: "*",
     credentials: true
 }))
 
